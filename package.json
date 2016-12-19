@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "loopback-boot@2.14.0",
+        "scope": null,
+        "escapedName": "loopback-boot",
+        "name": "loopback-boot",
+        "rawSpec": "2.14.0",
+        "spec": "2.14.0",
+        "type": "version"
+      },
+      "D:\\Atul\\refapp\\node_modules\\ev-foundation"
+    ]
+  ],
+  "_from": "loopback-boot@2.14.0",
+  "_id": "loopback-boot@2.14.0",
+  "_inCache": true,
+  "_location": "/loopback-boot",
+  "_nodeVersion": "4.2.0",
+  "_npmUser": {
+    "name": "bajtos",
+    "email": "miro.bajtos@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "loopback-boot@2.14.0",
+    "scope": null,
+    "escapedName": "loopback-boot",
+    "name": "loopback-boot",
+    "rawSpec": "2.14.0",
+    "spec": "2.14.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/ev-foundation"
+  ],
+  "_resolved": "http://10.188.25.62:9009/loopback-boot/-/loopback-boot-2.14.0.tgz",
+  "_shasum": "e8b88f880e33f380b63fc8c00992bbad3f04b415",
+  "_shrinkwrap": null,
+  "_spec": "loopback-boot@2.14.0",
+  "_where": "D:\\Atul\\refapp\\node_modules\\ev-foundation",
+  "browser": "browser.js",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-boot/issues"
+  },
+  "dependencies": {
+    "async": "~0.9.0",
+    "commondir": "0.0.1",
+    "debug": "^2.0.0",
+    "lodash": "^3.6.0",
+    "semver": "^4.1.0",
+    "toposort": "^0.2.10"
+  },
+  "description": "Convention-based bootstrapper for LoopBack applications",
+  "devDependencies": {
+    "browserify": "^4.1.8",
+    "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "fs-extra": "^0.12.0",
+    "jscs": "^1.7.3",
+    "jshint": "^2.5.6",
+    "loopback": "^2.16.3",
+    "mocha": "^1.19.0",
+    "supertest": "^0.14.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e8b88f880e33f380b63fc8c00992bbad3f04b415",
+    "tarball": "http://10.188.25.62:9009/loopback-boot/-/loopback-boot-2.14.0.tgz"
+  },
+  "gitHead": "638368844d840ac412417596362cd9092200f658",
+  "homepage": "https://github.com/strongloop/loopback-boot#readme",
+  "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "Configuration",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "bajtos",
+      "email": "miro.bajtos@gmail.com"
+    },
+    {
+      "name": "rfeng",
+      "email": "enjoyjava@gmail.com"
+    },
+    {
+      "name": "ritch",
+      "email": "skawful@gmail.com"
+    },
+    {
+      "name": "strongloop",
+      "email": "callback@strongloop.com"
+    },
+    {
+      "name": "superkhau",
+      "email": "superkhau@gmail.com"
+    }
+  ],
+  "name": "loopback-boot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strongloop/loopback-boot.git"
+  },
+  "scripts": {
+    "pretest": "jscs . && jshint .",
+    "test": "mocha"
+  },
+  "version": "2.14.0"
+}
