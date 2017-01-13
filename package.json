@@ -114,5 +114,5 @@
     "pretest": "jscs . && jshint .",
     "test": "mocha"
   },
-  "version": "2.14.0"
+  "version": "2.100.0"
 }
